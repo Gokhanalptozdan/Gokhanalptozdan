@@ -1,0 +1,27 @@
+WOLVOX TRANSFER - SÜRÜM NOTLARI
+Delete Yazılım ve İnovasyon
+
+1.1.27
+  • "Sürüm Notları" düğmesi eklendi (Temizle'nin solunda): tüm sürümlerin değişiklikleri buradan görülebilir
+  • Uzaktan güncelleme eski Windows Server'larda da çalışır (TLS 1.2 / PowerShell ile indirme, proxy desteği)
+  • Güncelleme sunucusuna ulaşılamazsa hata ayrıntısı gösterilir
+
+1.1.25
+  • Uzaktan güncelleme testi
+
+1.1.24
+  • Uzaktan otomatik güncelleme: açılışta yeni sürüm denetlenir, onaylanınca indirilip kurulur ve program yeniden açılır
+  • Alttaki sürüm yazısına tıklayarak güncelleme elle de denetlenebilir
+
+1.1.22
+  • "Sadece bakiyesi olanlar" ayarı: işaretliyse F6 listesinde sadece kaynak depoda bakiyesi olan stoklar görünür, bakiyesi olmayan stok transfere eklenemez (ayar bilgisayarda saklanır)
+
+1.1.21
+  • Stok Listesi (F6): Grup kutusu eklendi, liste seçilen stok grubuna göre süzülebiliyor (Ara kutusuyla birlikte çalışır)
+
+1.1.20
+  • e-İrsaliye: "..." numaralı şablonlarda çıkan "Şablon irsaliye numarası çözülemedi" hatası giderildi; transfer "..." ile kaydedilir, numarayı e-İrsaliye Gönderimi verir
+  • Şablon numarası bozuksa numara, düzgün numaralı son transfer irsaliyesinin serisinden devam eder
+
+1.1.19 ve öncesi
+  • MS SQL (IKONYA) desteği, üretim (F8), zayiat (F7), sayım (F4), depo-şube kuralları, lisans ve ilk sürümler
