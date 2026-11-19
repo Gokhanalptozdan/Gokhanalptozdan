@@ -1,6 +1,13 @@
 WOLVOX TRANSFER - SÜRÜM NOTLARI
 Delete Yazılım ve İnovasyon
 
+1.1.29
+  • Kullanıcı girişi: veritabanına bağlanınca giriş ekranı açılır; kayıtlarda "Kaydeden" olarak giriş yapan kişi yazılır (önceden şablonu kesen kullanıcı görünüyordu)
+  • Kullanıcı adları Wolvox'taki kullanıcı adlarıyla aynı seçilir; şifreler Wolvox Transfer'e özeldir. İlk giren kişi yönetici olur
+  • Alt şeritte kullanıcı adı: tıklayınca kullanıcı değiştir, şifremi değiştir, kullanıcılar (yönetici: ekle / sil / şifre sıfırla)
+  • Giriş yapılmadan transfer, üretim, zayiat ve sayım kaydedilemez
+  • Kayıt tarihi şablondan kopyalanmaz, kaydın yapıldığı an yazılır
+
 1.1.28
   • "Sürüm Notları" alt şeride, lisans ile sürüm yazısının arasına taşındı
   • Sürüm notları sunucuda henüz yoksa anlaşılır mesaj gösterilir

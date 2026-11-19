@@ -1,3 +1,4 @@
-1.1.28
-"Sürüm Notları" alt şeride, lisans ile sürüm yazısının arasına taşındı
-Sürüm notları sunucuda henüz yoksa anlaşılır mesaj gösterilir
+1.1.29
+Kullanıcı girişi: kayıtlarda "Kaydeden" olarak giriş yapan kişi yazılır
+Kullanıcılar Wolvox kullanıcı adlarıyla; ilk giren yönetici olur, alt şeritten kullanıcı yönetimi
+Giriş yapılmadan kayıt yapılamaz
