@@ -1,4 +1,4 @@
-1.1.24
+1.1.25
 Stok Listesi (F6): Grup kutusu eklendi, liste seçilen stok grubuna göre süzülebiliyor (Ara kutusuyla birlikte çalışır)
 "Sadece bakiyesi olanlar" ayarı: işaretliyse F6 listesinde sadece kaynak depoda bakiyesi olan stoklar görünür, bakiyesi olmayan stok transfere eklenemez
 e-İrsaliye: "..." numaralı şablonlarda çıkan "Şablon irsaliye numarası çözülemedi" hatası giderildi; transfer "..." ile kaydedilir, numarayı e-İrsaliye Gönderimi verir
