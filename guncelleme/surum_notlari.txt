@@ -1,6 +1,10 @@
 WOLVOX TRANSFER - SÜRÜM NOTLARI
 Delete Yazılım ve İnovasyon
 
+1.1.28
+  • "Sürüm Notları" alt şeride, lisans ile sürüm yazısının arasına taşındı
+  • Sürüm notları sunucuda henüz yoksa anlaşılır mesaj gösterilir
+
 1.1.27
   • "Sürüm Notları" düğmesi eklendi (Temizle'nin solunda): tüm sürümlerin değişiklikleri buradan görülebilir
   • Uzaktan güncelleme eski Windows Server'larda da çalışır (TLS 1.2 / PowerShell ile indirme, proxy desteği)
