@@ -1,5 +1,11 @@
-WOLVOX TRANSFER - SÜRÜM NOTLARI
+DELETE TRANSFER YÖNETİM SİSTEMİ - SÜRÜM NOTLARI
 Delete Yazılım ve İnovasyon
+
+1.1.33
+  • Programın yeni adı: Delete Transfer Yönetim Sistemi. Yeni kurumsal simge; pencere başlığı, giriş ekranı, alt şerit ve kurulum yeni adla görünür (eski "Wolvox Transfer" kısayolları kurulumda kaldırılır)
+  • Transfer kaydedilirken "Fiyatlar Alış Fiyatı-1 ile güncellensin mi?" diye sorulur. Evet: her satıra stok kartındaki Alış Fiyatı-1 yazılır; satır tutarları, belge toplamı ve stok giriş/çıkış hareketleri bu fiyatla kaydedilir. Hayır: eskisi gibi fiyatsız kaydedilir
+  • Fiyat sorusunda Türkçe düğmeler ve kısayollar: E = Evet, H = Hayır, Esc = Vazgeç
+  • Veritabanı kullanıcısının tablo oluşturma yetkisi yoksa (MS SQL "CREATE TABLE permission denied") giriş artık hata vermez: Wolvox Transfer kullanıcıları program klasöründeki WT_Kullanicilar.ini dosyasında saklanır
 
 1.1.29
   • Kullanıcı girişi: veritabanına bağlanınca giriş ekranı açılır; kayıtlarda "Kaydeden" olarak giriş yapan kişi yazılır (önceden şablonu kesen kullanıcı görünüyordu)

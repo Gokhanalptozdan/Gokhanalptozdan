@@ -1,4 +1,4 @@
-1.1.29
-Kullanıcı girişi: kayıtlarda "Kaydeden" olarak giriş yapan kişi yazılır
-Kullanıcılar Wolvox kullanıcı adlarıyla; ilk giren yönetici olur, alt şeritten kullanıcı yönetimi
-Giriş yapılmadan kayıt yapılamaz
+1.1.33
+Yeni ad ve simge: Delete Transfer Yönetim Sistemi
+Transfer kaydında fiyat sorusu: Alış Fiyatı-1 yazılsın mı? (E = Evet, H = Hayır)
+Tablo oluşturma yetkisi olmayan veritabanlarında kullanıcı girişi düzeltildi
