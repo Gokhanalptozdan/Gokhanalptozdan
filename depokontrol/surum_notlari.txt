@@ -1,6 +1,13 @@
 DELETE DEPO KONTROL - SÜRÜM NOTLARI
 Delete Yazılım ve İnovasyon
 
+1.6.0
+  • Fatura satırları kontrolü: FATURAHR tablosunda şube kodu olmadığı için şube bilgisi fatura başlığından (FATURA.SUBE_KODU, FATURAHR.BLFTKODU = FATURA.BLKODU) alınır; Kütüphane faturasında depo adı farklı olan satırlar bulunur ve izin verilirse düzeltilir
+  • Ayar: BAGLI_TABLOLAR (varsayılan FATURAHR:BLFTKODU>FATURA:BLKODU)
+  • Pencerede "Düzeltilen Kayıtlar" sekmesi (düzeltme yedeği: tablo, anahtar, eski ve yeni depo adı)
+  • Arka planda aynı sonuç tekrar tekrar yazılmaz; sadece hatalı kayıt sayısı değişince, düzeltme yapılınca veya hata olunca log'a yazılır
+  • Saat yanındaki simge yeni sürüm kurulunca kendini yeniden başlatır; pencere çalışan sürümü gösterir
+
 1.5.1
   • Eski sürümlerden kalan e-posta kayıtları temizlendi: eski log bir kez DepoKontrol_eski.log adıyla kenara alınır, kayıtlar temiz başlar
   • Pencerede e-posta ile ilgili eski satırlar gösterilmez
