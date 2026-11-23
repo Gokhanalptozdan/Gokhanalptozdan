@@ -1,0 +1,12 @@
+DELETE DEPO KONTROL - SÜRÜM NOTLARI
+Delete Yazılım ve İnovasyon
+
+1.0.0
+  • İlk sürüm
+  • Wolvox veritabanında SUBE_KODU ve DEPO_ADI kolonları olan tüm tabloları otomatik bulur
+  • Seçilen şubede (varsayılan KUTUPHANE) depo adı beklenenden farklı olan kayıtları listeler
+  • Depo dağılımı, gün gün hatalı kayıt sayısı, en çok hatalı ürünler ve kullanıcılar ekrana yazılır
+  • Tüm hatalı kayıtlar program klasörüne CSV rapor olarak kaydedilir (Excel ile açılır)
+  • Veritabanına salt okunur bağlanır, hiçbir kaydı değiştirmez
+  • Son girilen ayarlar hatırlanır (Delete Depo Kontrol.ini)
+  • Uzaktan otomatik güncelleme: açılışta yeni sürüm denetlenir, onaylanınca indirilip kurulur

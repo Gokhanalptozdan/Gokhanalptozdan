@@ -1,0 +1,4 @@
+1.0.0
+Ilk surum: Delete Depo Kontrol
+Subede depo adi beklenenden farkli olan (orn. KUTUPHANE yerine MERKEZ) hareketleri bulur
+Gun gun, urun ve kullanici bazinda ozet; tum hatali kayitlar Excel'de acilan CSV rapora yazilir
