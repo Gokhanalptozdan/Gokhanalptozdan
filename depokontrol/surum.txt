@@ -1,3 +1,2 @@
-1.6.0
-FATURAHR kontrolu: fatura satirlarindaki depo adi, faturanin subesine (FATURA.SUBE_KODU) gore kontrol edilir
-Duzeltilen Kayitlar sekmesi; arka planda sadece degisiklik olunca log yazilir
+1.6.1
+Depo adi bos olan satirlar artik hatali sayilmaz ve degistirilmez

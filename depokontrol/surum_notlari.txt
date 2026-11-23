@@ -1,6 +1,10 @@
 DELETE DEPO KONTROL - SÜRÜM NOTLARI
 Delete Yazılım ve İnovasyon
 
+1.6.1
+  • Depo adı boş olan satırlar (hizmet, reçete, açıklama satırları vb.) artık hatalı sayılmaz ve düzeltilmez; sadece başka bir depo adı yazan satırlar (örn. MERKEZ) düzeltilir
+  • İstenirse boşlar da hatalı sayılabilir: ayar.ini'de BOS_DEPO_HATALI=EVET
+
 1.6.0
   • Fatura satırları kontrolü: FATURAHR tablosunda şube kodu olmadığı için şube bilgisi fatura başlığından (FATURA.SUBE_KODU, FATURAHR.BLFTKODU = FATURA.BLKODU) alınır; Kütüphane faturasında depo adı farklı olan satırlar bulunur ve izin verilirse düzeltilir
   • Ayar: BAGLI_TABLOLAR (varsayılan FATURAHR:BLFTKODU>FATURA:BLKODU)
