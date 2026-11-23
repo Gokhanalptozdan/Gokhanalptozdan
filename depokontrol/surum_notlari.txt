@@ -1,6 +1,11 @@
 DELETE DEPO KONTROL - SÜRÜM NOTLARI
 Delete Yazılım ve İnovasyon
 
+1.2.1
+  • Masaüstü kısayolları: "Depo Kontrol - Şimdi Kontrol Et", "Depo Kontrol - Kayıtlar ve Raporlar", "Depo Kontrol - Deneme E-postası"
+  • Başlat menüsüne "Deneme E-postası Gönder" eklendi
+  • E-posta gönderilemezse Gmail/SMTP sunucusunun verdiği hata mesajı DepoKontrol.log dosyasına yazılır
+
 1.2.0
   • E-posta raporu: hatalı kayıt bulununca rapor e-postayla gönderilir, hatalı kayıtların tam listesi (son_kontrol.csv) ekte
   • Gereksiz e-posta yok: sadece hata sayısı değişince, düzeltme yapılınca, sorun geçince veya hata sürüyorsa günde bir kez gönderilir
