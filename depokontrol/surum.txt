@@ -1,2 +1,2 @@
-1.7.1
-FATURAHR ve STOKHR varsayilan olarak duzeltilir (DEPO_ADI = SUBE_KODU)
+1.7.2
+DEPO_ADI bos (NULL) olan satirlara da sube kodu yazilir
