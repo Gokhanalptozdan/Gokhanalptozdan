@@ -1,6 +1,9 @@
 DELETE DEPO KONTROL - SÜRÜM NOTLARI
 Delete Yazılım ve İnovasyon
 
+1.7.1
+  • FATURAHR ve STOKHR varsayılan olarak düzeltilir; ayar yazmaya gerek yok. Sadece rapor istenirse ayar.ini'de DUZELT_TABLOLAR=YOK
+
 1.7.0
   • Yeni kural, tüm şubeler için: her satırda DEPO_ADI = SUBE_KODU olmalı. STOKHR'de satırın kendi şube kodu, FATURAHR'de faturanın (FATURA) şube kodu esas alınır
   • Düzeltme: depo adı şube kodundan farklı olan satırlarda depo adı, o satırın şube koduna eşitlenir (izin verilen tablolarda; eski değer yedeklenir)

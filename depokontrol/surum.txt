@@ -1,3 +1,2 @@
-1.7.0
-Yeni kural: her satirda DEPO_ADI = SUBE_KODU (tum subeler); bulunan satirlarda depo adi sube koduna esitlenir
-Kurulumda sube / depo girmeye gerek yok, her subeye ayni setup kurulur
+1.7.1
+FATURAHR ve STOKHR varsayilan olarak duzeltilir (DEPO_ADI = SUBE_KODU)
