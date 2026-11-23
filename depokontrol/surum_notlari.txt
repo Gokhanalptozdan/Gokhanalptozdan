@@ -1,6 +1,10 @@
 DELETE DEPO KONTROL - SÜRÜM NOTLARI
 Delete Yazılım ve İnovasyon
 
+1.5.1
+  • Eski sürümlerden kalan e-posta kayıtları temizlendi: eski log bir kez DepoKontrol_eski.log adıyla kenara alınır, kayıtlar temiz başlar
+  • Pencerede e-posta ile ilgili eski satırlar gösterilmez
+
 1.5.0
   • Program penceresi: saat yanındaki simgeye tıklayınca açılır. Sekmeler: Log Ekranı, Uyarı Mesajları, Hata Mesajları, Hatalı Kayıtlar
   • Üstte şube, olması gereken depo ve veritabanı; Şimdi Kontrol Et ve Kayıt Klasörü düğmeleri
