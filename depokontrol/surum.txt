@@ -1,3 +1,3 @@
-1.3.0
-Bir kerelik teshis raporu (teshis.txt): gun gun sube/depo dagilimi, tablo kolonlari, hatali kayit ornekleri
-E-posta duzeltmesi ve hata ayrintilari
+1.4.0
+Saat yaninda simge: tiklayinca kayitlari (log) acar, sag tikta Simdi kontrol et
+E-posta raporu kaldirildi, her sey log dosyasina yazilir
