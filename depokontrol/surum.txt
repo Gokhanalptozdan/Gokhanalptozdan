@@ -1,3 +1,3 @@
-1.2.2
-E-posta duzeltmesi: bilgisayar adinda Turkce karakter olunca Gmail'in baglantiyi kesmesi giderildi
-Deneme e-postasi kisayolu da once guncelleme denetler
+1.3.0
+Bir kerelik teshis raporu (teshis.txt): gun gun sube/depo dagilimi, tablo kolonlari, hatali kayit ornekleri
+E-posta duzeltmesi ve hata ayrintilari

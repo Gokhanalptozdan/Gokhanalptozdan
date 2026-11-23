@@ -1,6 +1,9 @@
 DELETE DEPO KONTROL - SÜRÜM NOTLARI
 Delete Yazılım ve İnovasyon
 
+1.3.0
+  • Teşhis raporu: ilk çalışmada bir kez (veya /teshis ile) teshis.txt oluşturulur. İçinde, başlangıç tarihinden 10 gün öncesinden itibaren gün gün şube / depo / işlem türü / kullanıcı dağılımı, tablo kolonları ve hatalı kayıt örnekleri (tüm alanlarıyla) bulunur. Salt okunur
+
 1.2.2
   • E-posta gönderimi düzeltildi: bilgisayar adında Türkçe karakter (ö, ü, ğ, ş, ı, ç) olduğunda Gmail'in bağlantıyı kesmesi ("net_io_connectionclosed") giderildi
   • E-posta gönderilemezse iç hata ayrıntıları da log'a yazılır
