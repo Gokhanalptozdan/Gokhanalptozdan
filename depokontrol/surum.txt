@@ -1,5 +1,4 @@
-1.1.0
-Kurulum (Setup) ile gelir; ayarlar kurulumda bir kez girilir
-Arka planda 5 dakikada bir otomatik kontrol, pencere acmaz
-Izin verilen tablolarda hatali depo adini otomatik duzeltir (eski hali yedeklenir)
-Guncellemeler sormadan, sessizce yapilir
+1.2.0
+Hatali kayit bulununca rapor e-postayla gonderilir (hatali kayit listesi ekte)
+Ekrana hicbir uyari / pencere cikmaz, tamamen arka planda calisir
+Kurulumda e-posta ayarlari ve deneme e-postasi
