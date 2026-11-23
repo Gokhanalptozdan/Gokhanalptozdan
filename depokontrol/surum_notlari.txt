@@ -1,6 +1,10 @@
 DELETE DEPO KONTROL - SÜRÜM NOTLARI
 Delete Yazılım ve İnovasyon
 
+1.4.1
+  • "ayar.ini dosyası başka bir işlem tarafından kullanılıyor" hatası giderildi: ayarlar (ayar.ini) ve program durumu (durum.ini) ayrı dosyalarda; program ayar dosyasına yazmaz, dosya meşgulse tekrar dener
+  • Beklenmeyen hatalar ekranda pencere açmak yerine log dosyasına yazılır
+
 1.4.0
   • Saat yanında simge: sol tık kayıt dosyasını açar; sağ tık menüsünde Kayıtları aç / Şimdi kontrol et / Çıkış
   • Simgenin üzerine gelince son kontrolün saati, hatalı ve düzeltilen kayıt sayısı görünür; simge durumu gösterir (bilgi / ünlem / hata)
