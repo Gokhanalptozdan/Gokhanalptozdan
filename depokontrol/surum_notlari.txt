@@ -1,6 +1,13 @@
 DELETE DEPO KONTROL - SÜRÜM NOTLARI
 Delete Yazılım ve İnovasyon
 
+1.5.0
+  • Program penceresi: saat yanındaki simgeye tıklayınca açılır. Sekmeler: Log Ekranı, Uyarı Mesajları, Hata Mesajları, Hatalı Kayıtlar
+  • Üstte şube, olması gereken depo ve veritabanı; Şimdi Kontrol Et ve Kayıt Klasörü düğmeleri
+  • Altta son kontrol zamanı, hatalı ve düzeltilen kayıt sayısı, sürüm
+  • Pencere 5 saniyede bir kendini yeniler; kapatınca gizlenir, simge çalışmaya devam eder
+  • Log artık Not Defteri ile açılmaz
+
 1.4.1
   • "ayar.ini dosyası başka bir işlem tarafından kullanılıyor" hatası giderildi: ayarlar (ayar.ini) ve program durumu (durum.ini) ayrı dosyalarda; program ayar dosyasına yazmaz, dosya meşgulse tekrar dener
   • Beklenmeyen hatalar ekranda pencere açmak yerine log dosyasına yazılır
