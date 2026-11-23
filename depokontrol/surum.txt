@@ -1,4 +1,5 @@
-1.0.0
-Ilk surum: Delete Depo Kontrol
-Subede depo adi beklenenden farkli olan (orn. KUTUPHANE yerine MERKEZ) hareketleri bulur
-Gun gun, urun ve kullanici bazinda ozet; tum hatali kayitlar Excel'de acilan CSV rapora yazilir
+1.1.0
+Kurulum (Setup) ile gelir; ayarlar kurulumda bir kez girilir
+Arka planda 5 dakikada bir otomatik kontrol, pencere acmaz
+Izin verilen tablolarda hatali depo adini otomatik duzeltir (eski hali yedeklenir)
+Guncellemeler sormadan, sessizce yapilir

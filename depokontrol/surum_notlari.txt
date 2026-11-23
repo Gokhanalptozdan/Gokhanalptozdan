@@ -1,6 +1,16 @@
 DELETE DEPO KONTROL - SÜRÜM NOTLARI
 Delete Yazılım ve İnovasyon
 
+1.1.0
+  • Kurulum dosyası: "Delete Depo Kontrol Setup.exe". Veritabanı, şube, depo ve bağlantı ayarları kurulumda bir kez girilir
+  • Arka planda çalışma: Windows Görev Zamanlayıcısı ile 5 dakikada bir otomatik kontrol (SYSTEM hesabı, pencere açmaz, oturum açılmasa da çalışır)
+  • Otomatik düzeltme: kurulumda belirtilen tablolarda, şubede depo adı yanlış olan kayıtlar doğru depo adına düzeltilir
+  • Güvenlik: düzeltmeden önce her kaydın eski hali duzeltme_yedegi.csv dosyasına yazılır; birincil anahtarı olmayan veya ayrıca depo kodu kolonu bulunan tablolar düzeltilmez
+  • Kayıtlar: %ProgramData%\Delete\DepoKontrol klasöründe DepoKontrol.log, son_kontrol.csv, duzeltme_yedegi.csv
+  • Başlat menüsü: Şimdi Kontrol Et, Kayıtlar ve Raporlar, Ayarlar, Kaldır
+  • Güncellemeler artık sormadan, arka planda sessizce yapılır (6 saatte bir denetlenir)
+  • fbclient.dll klasörü ayarı: Wolvox'un 32 bit fbclient.dll dosyası otomatik bulunur veya kurulumda seçilir
+
 1.0.0
   • İlk sürüm
   • Wolvox veritabanında SUBE_KODU ve DEPO_ADI kolonları olan tüm tabloları otomatik bulur
