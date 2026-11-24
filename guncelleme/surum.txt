@@ -1,2 +1,2 @@
-1.1.39
-Soru pencerelerinde metin kesilmesi düzeltildi; kopya satış irsaliyesinde e-İrsaliye yeniden işaretli
+1.1.40
+Şubede kesilen transfer irsaliyeleri artık merkeze gönderilir

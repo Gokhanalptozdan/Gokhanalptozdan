@@ -1,6 +1,9 @@
 DELETE TRANSFER YÖNETİM SİSTEMİ - SÜRÜM NOTLARI
 Delete Yazılım ve İnovasyon
 
+1.1.40
+  • Düzeltme: Şubede (çevrimdışı) kesilen transfer irsaliyeleri merkeze gitmiyordu. Şablonun "merkeze gönderildi" işareti (OFFLINE_DURUM) ve stok hareketlerinin senkron kimliği (OFFLINE_GUID) artık kopyalanmıyor; yeni kayıtlar bir sonraki senkronda merkeze gider. Aynı düzeltme üretim, sayım ve zayiat kayıtlarına da uygulandı
+
 1.1.39
   • Kopyalanan satış irsaliyesinde "e-İrsaliye" yeniden transferdeki gibi işaretli gelir (merkeze göndermeme ayarı aynen kalır)
   • Düzeltme: Evet/Hayır soru pencerelerinde (fiyat, satış irsaliyesi) metin kesiliyor ve düğmelerin altında kalıyordu; pencere artık metne göre boyutlanır
