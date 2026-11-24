@@ -1,6 +1,10 @@
 DELETE TRANSFER YÖNETİM SİSTEMİ - SÜRÜM NOTLARI
 Delete Yazılım ve İnovasyon
 
+1.1.38
+  • Transferden kopyalanan satış irsaliyesinde "e-İrsaliye" işaretsiz gelir; e-irsaliye olarak otomatik gönderilmez
+  • Şube veritabanlarında kopyalanan satış irsaliyesi MERKEZE GÖNDERİLMEZ ve şubede düzenlenebilir/silinebilir (önceden "Merkeze gönderilmiş veriler üzerinde düzenleme/silme yapılamaz" uyarısı veriyordu)
+
 1.1.37
   • Düzeltme: "Transaction already active" hatası (yarım kalmış veritabanı işlemi sonraki kaydı engelliyordu)
   • Düzeltme: Adının 10. harfi Türkçe karakter olan stoklarda (ör. "TOST EKMEĞİ") transfer "Cannot transliterate character" hatası veriyordu; açıklamalar artık harf ortasından kesilmiyor

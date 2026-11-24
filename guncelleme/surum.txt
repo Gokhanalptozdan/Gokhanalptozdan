@@ -1,2 +1,2 @@
-1.1.37
-Transfer sonrası isteğe bağlı satış irsaliyesi kopyası (stok ve cari hareketlere işlenmez)
+1.1.38
+Transferden kopyalanan satış irsaliyesinde e-İrsaliye işaretsiz gelir, otomatik gönderilmez
