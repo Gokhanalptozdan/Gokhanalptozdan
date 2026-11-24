@@ -1,4 +1,2 @@
-1.1.33
-Yeni ad ve simge: Delete Transfer Yönetim Sistemi
-Transfer kaydında fiyat sorusu: Alış Fiyatı-1 yazılsın mı? (E = Evet, H = Hayır)
-Tablo oluşturma yetkisi olmayan veritabanlarında kullanıcı girişi düzeltildi
+1.1.36
+Giriş ekranında kullanıcı adı artık hazır seçili gelmez; her girişte kullanıcı seçilir
