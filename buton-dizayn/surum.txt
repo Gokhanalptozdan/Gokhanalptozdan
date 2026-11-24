@@ -1,0 +1,3 @@
+1.0.3
+Şube kilidi: program yalnızca bu bilgisayarın şubesini gösterir
+Uzaktan otomatik güncelleme ve Sürüm Notları
