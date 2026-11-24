@@ -1,2 +1,2 @@
-1.1.40
-Şubede kesilen transfer irsaliyeleri artık merkeze gönderilir
+1.1.41
+Sayım fazlası alınan sipariş olarak kaydedilir; şubede merkeze gitmemiş eski transferler otomatik düzeltilir

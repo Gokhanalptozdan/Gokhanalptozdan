@@ -1,6 +1,10 @@
 DELETE TRANSFER YÖNETİM SİSTEMİ - SÜRÜM NOTLARI
 Delete Yazılım ve İnovasyon
 
+1.1.41
+  • Sayım (F4): sayım fazlası artık alış faturası yerine şubenin GM... carisine YURT İÇİ ALINAN SİPARİŞ olarak (fiyatsız, "Beklemede") kaydedilir; numara son alınan siparişin serisinden devam eder (ör. ASP00011), açıklamaya "<ŞUBE> SAYIMI gg.aa.yyyy" yazılır
+  • Şube veritabanına bağlanınca, eski sürümlerle kesilip merkeze gitmemiş transfer irsaliyeleri otomatik bulunup bir kez düzeltilir ve merkeze gönderilmek üzere sıraya alınır (elle SQL çalıştırmaya gerek kalmaz)
+
 1.1.40
   • Düzeltme: Şubede (çevrimdışı) kesilen transfer irsaliyeleri merkeze gitmiyordu. Şablonun "merkeze gönderildi" işareti (OFFLINE_DURUM) ve stok hareketlerinin senkron kimliği (OFFLINE_GUID) artık kopyalanmıyor; yeni kayıtlar bir sonraki senkronda merkeze gider. Aynı düzeltme üretim, sayım ve zayiat kayıtlarına da uygulandı
 
