@@ -1,0 +1,19 @@
+﻿DELETE BUTON DİZAYN - SÜRÜM NOTLARI
+Delete Yazılım ve İnovasyon
+
+1.0.3
+  • Şube kilidi: program yalnızca bu bilgisayarın şubesini gösterir; başka şube seçilemez, başka şubenin yedeği yüklenemez. Şube kurulumda bir kez girilir
+  • Uzaktan otomatik güncelleme: açılışta yeni sürüm denetlenir, onaylanınca indirilip kurulur ve program yeniden açılır (alt şeritte sürüm yazısına tıklayarak elle de denetlenir)
+  • "Sürüm Notları" bağlantısı alt şeride eklendi
+
+1.0.2
+  • Yedekle: şubenin tüm buton dizaynı tek tuşla yedeklenir
+  • Yedekten geri al: tam yedekler de yüklenir; yüklemeden önce mevcut hal otomatik yedeklenir
+  • Her açılışta otomatik yedek ve "Açılış haline dön" ile tek tuşla geri dönüş
+  • Fabrika ayarlarına getir: buton dizaynı merkez veritabanındaki haline getirilir (merkeze ulaşılamazsa yerel fabrika kaydı)
+  • Kategori arama: grup ağacının üstünde arama kutusu
+  • Ürün ekle listesinde yalnızca YİYECEKLER ve İÇECEKLER grubundaki ürünler görünür
+
+1.0.1
+  • İlk sürüm: adisyon butonlarının arka plan / yazı rengi, gruplara stok listesinden ürün ekleme, geri alma dosyaları
+  • Delete Transfer ile aynı lisans sistemi ve kurulum sihirbazı
