@@ -1,6 +1,11 @@
 DELETE TRANSFER YÖNETİM SİSTEMİ - SÜRÜM NOTLARI
 Delete Yazılım ve İnovasyon
 
+1.1.37
+  • Düzeltme: "Transaction already active" hatası (yarım kalmış veritabanı işlemi sonraki kaydı engelliyordu)
+  • Düzeltme: Adının 10. harfi Türkçe karakter olan stoklarda (ör. "TOST EKMEĞİ") transfer "Cannot transliterate character" hatası veriyordu; açıklamalar artık harf ortasından kesilmiyor
+  • Transfer kaydedildikten sonra "Satış irsaliyesi olarak da kopyalansın mı?" diye sorulur (E = Evet, H = Hayır). Evet: aynı cari, satırlar ve fiyatlarla satış irsaliyesi oluşturulur; stok ve cari hareketlere İŞLENMEZ (Wolvox'taki "Stok Hareketlere İşlensin" işaretsiz). Numara, son satış irsaliyesinin serisinden devam eder
+
 1.1.34
   • Giriş ekranında kullanıcı adı artık hazır seçili gelmez; her girişte kullanıcı seçilir
 

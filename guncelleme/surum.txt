@@ -1,2 +1,2 @@
-1.1.36
-Giriş ekranında kullanıcı adı artık hazır seçili gelmez; her girişte kullanıcı seçilir
+1.1.37
+Transfer sonrası isteğe bağlı satış irsaliyesi kopyası (stok ve cari hareketlere işlenmez)
