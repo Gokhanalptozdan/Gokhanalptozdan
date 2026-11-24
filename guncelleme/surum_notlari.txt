@@ -1,6 +1,10 @@
 DELETE TRANSFER YÖNETİM SİSTEMİ - SÜRÜM NOTLARI
 Delete Yazılım ve İnovasyon
 
+1.1.39
+  • Kopyalanan satış irsaliyesinde "e-İrsaliye" yeniden transferdeki gibi işaretli gelir (merkeze göndermeme ayarı aynen kalır)
+  • Düzeltme: Evet/Hayır soru pencerelerinde (fiyat, satış irsaliyesi) metin kesiliyor ve düğmelerin altında kalıyordu; pencere artık metne göre boyutlanır
+
 1.1.38
   • Transferden kopyalanan satış irsaliyesinde "e-İrsaliye" işaretsiz gelir; e-irsaliye olarak otomatik gönderilmez
   • Şube veritabanlarında kopyalanan satış irsaliyesi MERKEZE GÖNDERİLMEZ ve şubede düzenlenebilir/silinebilir (önceden "Merkeze gönderilmiş veriler üzerinde düzenleme/silme yapılamaz" uyarısı veriyordu)

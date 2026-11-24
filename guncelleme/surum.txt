@@ -1,2 +1,2 @@
-1.1.38
-Transferden kopyalanan satış irsaliyesinde e-İrsaliye işaretsiz gelir, otomatik gönderilmez
+1.1.39
+Soru pencerelerinde metin kesilmesi düzeltildi; kopya satış irsaliyesinde e-İrsaliye yeniden işaretli
