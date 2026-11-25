@@ -1,6 +1,13 @@
 DELETE TRANSFER YÖNETİM SİSTEMİ - SÜRÜM NOTLARI
 Delete Yazılım ve İnovasyon
 
+1.1.43
+  • Transfer artık örnek (şablon) transfer aramaz: Wolvox'ta onaylı transfer yoksa da kaydedilir (gerekirse herhangi bir irsaliye yalnızca alan yapısı için kullanılır; numara transfer serisinden ya da STR'den devam eder). "Şablon bulunamadı" hatası kalktı
+  • Veritabanı yalnızca ilk açılışta sorulur; sonraki açılışlarda kayıtlı veritabanına kendiliğinden bağlanır
+  • Kullanıcı girişi program açıkken bir kez istenir; yeniden bağlanınca tekrar sorulmaz (kullanıcı değiştirmek için alt şeritteki kullanıcı adına tıklayın)
+  • Tüm formlarda "Excel'e Aktar" düğmesi: Transfer, Zayiat (F7), Üretim (F8), Stok Listesi (F6) (Sayım'da zaten vardı)
+  • Ürün eklenince ekranın ortasında kısa süre görünen yeşil "Ürün eklenmiştir" bildirimi (transfer, zayiat, sayım, stok listesi); okutmayı engellemez
+
 1.1.42
   • Düzeltme (KANYON verisiyle doğrulandı): Şubede eski sürümlerle kesilip merkeze gitmeyen transfer irsaliyeleri ("merkezden gelmiş" durumu 20 ve senkron kimliği boş olanlar) açılışta Wolvox'un yeni kaydıyla aynı duruma getirilir; bir sonraki senkronda merkeze gider
 
