@@ -1,6 +1,16 @@
 DELETE TRANSFER YÖNETİM SİSTEMİ - SÜRÜM NOTLARI
 Delete Yazılım ve İnovasyon
 
+1.1.47
+  • Kullanıcı girişi Wolvox kullanıcı adı ve Wolvox şifresiyle (SIRKET.FDB > PERSONEL): listede bu şirkete yetkili aktif Wolvox kullanıcıları görünür. SIRKET.FDB'ye ulaşılamazsa programın kendi kullanıcıları kullanılır
+  • Giriş bilgisayarda hatırlanır: bir kez giriş yapılır, sonraki açılışlarda sorulmaz (kullanıcı değiştirmek için alt şeritteki kullanıcı adına tıklayın)
+  • Veritabanı Ayarları'na isteğe bağlı SIRKET.FDB yolu (ikinci yol) eklendi; boşsa veritabanı yolundan otomatik bulunur
+  • Hız: açılış ~1 dakikadan 1 saniyenin altına indi (reçeteler açılışta okunmuyor, stok birim bilgisi BLOB olarak tek tek çekilmiyor)
+  • Hız: barkod / stok kodu araması indeksli, stok listesi daha hızlı, kayıtta örnek transfer araması oturumda bir kez, bakiyeler tek sorguda
+  • Ayar dosyaları (TransferIrsaliye.ini, aglar.ini, depolar.ini vb.) program klasöründeki Settings klasöründe; eski kurulumlardaki dosyalar kendiliğinden taşınır
+  • Bağlantı adımlarının süresi Settings\baglanti_sure.txt dosyasına yazılır (yavaşlık tespiti için)
+  • Düzeltme: eski şube transferlerini merkeze gönderme düzeltmesi (1.1.42) sorgu hatası yüzünden çalışmıyordu; onarıldı
+
 1.1.43
   • Transfer artık örnek (şablon) transfer aramaz: Wolvox'ta onaylı transfer yoksa da kaydedilir (gerekirse herhangi bir irsaliye yalnızca alan yapısı için kullanılır; numara transfer serisinden ya da STR'den devam eder). "Şablon bulunamadı" hatası kalktı
   • Veritabanı yalnızca ilk açılışta sorulur; sonraki açılışlarda kayıtlı veritabanına kendiliğinden bağlanır

@@ -1,3 +1,5 @@
-1.1.43
-Örnek transfer gerekmez; veritabanı ve giriş bir kez sorulur
-Tüm formlarda Excel'e Aktar; ürün eklenince bildirim
+1.1.47
+Wolvox kullanıcı adı ve şifresiyle giriş; bilgisayarda bir kez giriş yeterli
+Hız: açılış, barkod arama, stok listesi, kayıt ve bakiyeler hızlandı
+Ayar dosyaları program klasöründeki Settings klasöründe
+Eski şube transferlerini merkeze gönderme düzeltmesi onarıldı
