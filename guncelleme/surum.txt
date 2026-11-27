@@ -1,4 +1,5 @@
-1.1.47
+1.1.48
+Bağlanınca durum çubuğunda "Bağlandı (… sn)" yazar; ayarlar aynıysa yeniden bağlanmaz
 Wolvox kullanıcı adı ve şifresiyle giriş; bilgisayarda bir kez giriş yeterli
 Hız: açılış, barkod arama, stok listesi, kayıt ve bakiyeler hızlandı
 Ayar dosyaları program klasöründeki Settings klasöründe

@@ -1,6 +1,11 @@
 DELETE TRANSFER YÖNETİM SİSTEMİ - SÜRÜM NOTLARI
 Delete Yazılım ve İnovasyon
 
+1.1.48
+  • Bağlantı bitince durum çubuğunda her zaman "Bağlandı (… sn)" yazar (giriş hatırlandığında "Bağlanıyor: Kullanıcı girişi…" yazısında kalıyordu)
+  • Veritabanı… > Bağlan: ayarlar değişmediyse ve bağlıysa bağlantı koparılmaz, "Zaten bağlı" denir
+  • Kayıtlı adres ilk denemede bağlanmazsa port taramasından önce bir kez daha denenir; bağlanamazsa asıl hata da mesajda görünür
+
 1.1.47
   • Kullanıcı girişi Wolvox kullanıcı adı ve Wolvox şifresiyle (SIRKET.FDB > PERSONEL): listede bu şirkete yetkili aktif Wolvox kullanıcıları görünür. SIRKET.FDB'ye ulaşılamazsa programın kendi kullanıcıları kullanılır
   • Giriş bilgisayarda hatırlanır: bir kez giriş yapılır, sonraki açılışlarda sorulmaz (kullanıcı değiştirmek için alt şeritteki kullanıcı adına tıklayın)
